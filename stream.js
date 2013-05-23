@@ -5,7 +5,7 @@ var dataStream = {
 							date    :"24.05.13 1:38 AM",
 							topic   :"random",
 							caption :"init message",
-							text    :"Blogging is not mine." + 
+							text    :"blogging is not the common thing to me." + 
 											 " But i love collecting my memories, art pieces and other things i'm interested in." + 
 											 " Those kind of stuff is going to be collected here.",
 							images  :[]
