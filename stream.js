@@ -4,7 +4,7 @@ var dataStream = {
 						{
 							date    :"24.05.13 1:38 AM",
 							topic   :"random",
-							caption :"Very first message",
+							caption :"init message",
 							text    :"Blogging is not mine." + 
 											 " But i love collecting my memories, art pieces and other things i'm interested in." + 
 											 " Those kind of stuff is going to be collected here.",
@@ -13,7 +13,7 @@ var dataStream = {
 					, {
 						date    :"24.05.13 1:41 AM",
 						topic   :"games",
-						caption :"First thing to share",
+						caption :"Game Dev Competition",
 						text    : "<p>Well. The first thing i wanna share is ours Game Dev competition participation.</p>" + 
 											" <p>Me and my friend Danyl Dantsev are taking part in Game development competition that is dedicated on sex awareness theme." + 
 											" Competition deadline is almost here - 22th of May (U.S. time).</p> " +
