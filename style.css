@@ -1,0 +1,96 @@
+.page{
+}
+.Header{
+	background-color: white;
+	height:100px;
+	text-align: center;
+	font-size: 50px;
+}
+.Stream{
+
+}
+.Topics{
+	background-color: yellow;
+	height: 200px;
+	width: 50px;
+	float: right;
+	position: fixed;
+	top:10px;
+	right:100px;
+	visibility: hidden;
+}
+.new{
+	background-color: white;
+	width: 320px;
+	position: relative;
+	margin-top: 70px;
+	margin-left: auto ;
+  	margin-right: auto ;
+}
+
+.downhr {
+  border-top: 2px dotted #000;
+  position: absolute;
+  bottom:-50;
+  left:-5%;
+  width:110%;
+}
+.caption{
+	font-size: 20px;
+
+	font-family: Lucida Console, Arial;
+}
+.topic{
+	margin-top: auto;
+	position: absolute;
+	bottom: -50;
+    right: 0;
+    color: lightGrey;
+    font-size: 13px;
+    font-family: Lucida Console , Arial;
+}
+.text{
+	font-size: 12px;
+	font-family: Verdana, Arial;
+	text-align: justify;
+	color: darkGreen;
+	text-indent: 20px;
+}
+.date{
+	margin-top: auto;
+	position: absolute;
+	bottom: -50;
+    left: 0;
+    color: lightGrey;
+    font-size: 13px;
+    font-family: Lucida Console , Arial;
+}
+.image{
+	width:100%;
+}
+.footer{
+	position: relative;
+	margin-top: 60;
+	width: 320px;
+	margin-left: auto ;
+  	margin-right: auto ;
+    color: lightGrey;
+    font-size: 10px;
+    font-family: Lucida Console , Arial;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
