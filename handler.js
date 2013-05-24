@@ -91,6 +91,7 @@ function clickOnTopic(){
 	for( var i = news.length - 1 ; i >= 0 ; i-- )
 		news[i].style.display='block'
 	defColor = this.style.backgroundColor
+	d.body.style.backgroundColor = defColor
 }
 
 function addTopic( name ){
