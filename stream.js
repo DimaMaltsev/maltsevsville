@@ -38,7 +38,7 @@ var dataStream = {
 						date    :"25.05.13 1:53 PM",
 						topic   :"music",
 						caption :"Goddamn good song",
-						text    :"<p>Listening to it for two days... still awsm.</p><p>Keeped me mad motivated at work today..</p> "
+						text    :"<p>Listening to it for two days... still awsm.</p> "
 										+"<p>Tokyo Police Club - Bambi</p><br><audio preload=none controls src='songs/tokyo.mp3'/>",
 						images  :[]
 					}
