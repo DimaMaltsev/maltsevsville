@@ -39,7 +39,7 @@ var dataStream = {
 						topic   :"music",
 						caption :"Goddamn good song",
 						text    :"<p>Listening to it for two days... still awsm.</p><p>Keeped me mad motivated at work today..</p> "
-										+"<p>Tokyo Police Club</p><br><audio controls src='songs/tokyo.mp3'/>",
+										+"<p>Tokyo Police Club</p><br><audio preload=none controls src='songs/tokyo.mp3'/>",
 						images  :[]
 					}
 				]
