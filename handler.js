@@ -2,9 +2,9 @@ var
 		d = document
 	,	beenVisible = 0
 	, timer = null
-	,	colors = [  "#6ADE82" , "#79E6E8"  , "#F07A2B" ,  "#D4F1FC" ]
+	,	colors = [ "#F5DCF7" , "#6ADE82" ,  "#D4F1FC" , "#79E6E8"  , "#F07A2B"  ]
 
-	, defColor = colors[ colors.length - 1 ]
+	, defColor = colors[ 0 ]
 
 d.getc   = d.getElementsByClassName
 d.create = d.createElement 
@@ -103,7 +103,7 @@ function addTopic( name ){
 	topic.in( "# " + name )
 	topic.onmousemove = function(){ d.body.style.backgroundColor = this.style.backgroundColor }
 	topic.onclick     = clickOnTopic
-	topic.style.backgroundColor = colors.pop()
+	topic.style.backgroundColor = colors.shift()
 }
 
 function changes(){

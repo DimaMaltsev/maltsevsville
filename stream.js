@@ -42,5 +42,12 @@ var dataStream = {
 										+"<p>Tokyo Police Club - Bambi</p><br><audio preload=none controls src='songs/tokyo.mp3'/>",
 						images  :[]
 					}
+					, {
+						date    :"25.05.13 2:28 PM",
+						topic   :"training",
+						caption :"Friends' Trampoline",
+						text    :"<p>My friends've built some kind of trampoline training center.. with two awsm jumps:) Cant wait to visit it!</p> ",
+						images  :["trampoline.jpg"]
+					}
 				]
 }
