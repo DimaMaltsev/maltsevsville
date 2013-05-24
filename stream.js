@@ -31,7 +31,7 @@ var dataStream = {
 						text    :"<p>Today at the office about 10 PM while playing CS:GO with my friend, i was happy realising that competition winners list is going to be announced really soon - "+
 											"what i just need is to go to bed and wake up with list recieved on my email box...</p>" +
 										 "<p>But today i was a little bit disappointed to recieve that email saying about deadline postpone.. </p>"+
-										 "<p>Now there is one more week ahead.. And thats not bad :)</p>",
+										 "<p>Now there is one more week ahead.. Okay then.. </p>",
 						images  :[]
 					}
 					, {
