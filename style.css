@@ -1,26 +1,62 @@
 .page{
 }
-.Header{
-	background-color: white;
-	height:100px;
+.Header{/*
+	background-color: white;*/
+	height:0px;
 	text-align: center;
 	font-size: 50px;
 }
 .Stream{
 
 }
-.Topics{
-	background-color: yellow;
-	height: 200px;
-	width: 50px;
-	float: right;
+.Stripe{
+	background-color: black;
+	height : 30px;
+	width: 100%;
 	position: fixed;
-	top:10px;
-	right:100px;
-	visibility: hidden;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
 }
-.new{
-	background-color: white;
+.me{
+	color: orange;
+	position: absolute;
+	font-family: Arial;
+	top:-10;
+	left: 10%;
+}
+body{
+  background-color: white;
+  transition: background-color .5s linear;
+  -moz-transition: background-color .5s linear;
+  -webkit-transition: background-color .5s linear;
+  -o-transition: background-color .5s linear;
+  -ms-transition: background-color .5s linear;
+}
+.Topics{
+  position:fixed;
+  top:30%; left:70%;
+  visibility: visible;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  -moz-transition: opacity .3s ease-in-out;
+  -webkit-transition: opacity .3s ease-in-out;
+  -o-transition: opacity .3s ease-in-out;
+  -ms-transition: opacity .3s ease-in-out;
+}
+
+.topicInList{
+	font-size: 17px;
+	width : 110%;
+	text-align: left;
+	margin-bottom: -17;
+	cursor: pointer;
+	color : white;
+	font-family: Arial;/*Lucida Console;*/
+}
+
+.new{/*
+	background-color: white;*/
 	width: 320px;
 	position: relative;
 	margin-top: 70px;
@@ -34,10 +70,11 @@
   bottom:-50;
   left:-5%;
   width:110%;
+  visibility: hidden;
 }
 .caption{
 	font-size: 20px;
-
+	color: #434445;
 	font-family: Lucida Console, Arial;
 }
 .topic{
@@ -45,15 +82,16 @@
 	position: absolute;
 	bottom: -50;
     right: 0;
-    color: lightGrey;
+    color: white;
     font-size: 13px;
     font-family: Lucida Console , Arial;
+    cursor: pointer;
 }
 .text{
 	font-size: 12px;
 	font-family: Verdana, Arial;
 	text-align: justify;
-	color: darkGreen;
+	color: #616161;
 	text-indent: 20px;
 }
 .date{
@@ -61,7 +99,7 @@
 	position: absolute;
 	bottom: -50;
     left: 0;
-    color: lightGrey;
+    color: 616161;
     font-size: 13px;
     font-family: Lucida Console , Arial;
 }
@@ -77,6 +115,7 @@
     color: lightGrey;
     font-size: 10px;
     font-family: Lucida Console , Arial;
+    visibility: hidden;
 }
 
 

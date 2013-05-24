@@ -1,5 +1,11 @@
 var 
 		d = document
+	,	beenVisible = 0
+	, timer = null
+	,	colors = [ "#FF9EFC" , "#6ADE82" , "#79E6E8" , "#E368E1" , "#F07A2B" ,  "#D4F1FC" ]
+
+	, defColor = colors[ colors.length - 1 ]
+
 d.getc   = d.getElementsByClassName
 d.create = d.createElement 
 d.createc = function( el , cl , parent ){ 
@@ -10,7 +16,7 @@ d.createc = function( el , cl , parent ){
 }
 
 var 
-		page , head , stream , topics , footer
+		page , head , stream , topics , footer , topicsList = [ "all" ]
 
 function init(){
 		page   = d.getc( 'page'   )[0]
@@ -19,12 +25,25 @@ function init(){
 	, topics = d.getc( 'Topics' )[0]
 
 	for( var n = dataStream.data.length - 1 ; n >= 0; n -- ){
-
 		addNew( dataStream.data[n] )
 	}
 
+	initTopicsList()
+	paintTopics()
+
 	footer = d.createc( 'p'  , 'footer'  , stream )
 	footer.in("Maltsevs Ville welcome!")
+	d.body.style.backgroundColor = defColor
+	d.getc('Stream')[0].onmousemove = function(){ d.body.style.backgroundColor = defColor ; changes() ;}
+}
+
+function paintTopics(){
+	var ts = d.getc( 'topic' )
+	for( var i = ts.length - 1 ; i >=0 ; i-- ){
+		var realTopic = d.getc( "topicInList " + ts[i].topic )[0]
+		ts[i].style.backgroundColor = realTopic.style.backgroundColor
+		ts[i].onclick     = clickOnTopic
+	}
 }
 
 function rollBack(){ // to do this func later
@@ -35,7 +54,7 @@ function rollBack(){ // to do this func later
 function addNew( news ){
 	var 
 			n   = news
-		,	div     = d.createc( 'div', 'new ' + n.topic )
+		,	div     = d.createc( 'div', 'new ' + n.topic.toLowerCase() )
 		, caption = d.createc( 'p'  , 'caption' , div )
 		, topic   = d.createc( 'p'  , 'topic'   , div )
 		, text    = d.createc( 'p'  , 'text'    , div )
@@ -50,13 +69,84 @@ function addNew( news ){
 
 	d.createc( 'hr' , 'downhr', div )
 
-	
+	//n.topic = n.topic.toUpperCase()
 	caption.in( n.caption )
-	topic.in  ( "# " + n.topic.toUpperCase())
+	topic.in  ( "# " + n.topic )
 	text.in   ( n.text    )
 	date.in   ( n.date    )
 
 	stream.appendChild( div )
+
+	if( topicsList.indexOf( n.topic )==-1 )
+		topicsList.push( n.topic )
+	topic.topic = n.topic.toLowerCase()
+}
+
+function clickOnTopic(){
+	var news = d.getc('new')
+	for( var i = news.length - 1 ; i >= 0 ; i-- )
+		news[i].style.display='none'
+	var t = this.topic
+	news = d.getc( t == 'all' ? 'new' : this.topic)
+	for( var i = news.length - 1 ; i >= 0 ; i-- )
+		news[i].style.display='block'
+	defColor = this.style.backgroundColor
+}
+
+function addTopic( name ){
+	var 
+			topics = d.getc( 'Topics' )[0]
+		, topic  = d.createc( 'p'  , 'topicInList ' + name.toLowerCase()   , topics )
+		
+
+	topic.topic = name.toLowerCase()
+	topic.in( "# " + name )
+	topic.onmousemove = function(){ d.body.style.backgroundColor = this.style.backgroundColor }
+	topic.onclick     = clickOnTopic
+	topic.style.backgroundColor = colors.pop()
+}
+
+function changes(){
+	if(!beenVisible)
+		d.getc( 'Topics' )[0].style.opacity = 1;
+	beenVisible = 100
+	if(!timer)
+		timer = setInterval( countDown , 50 )
+	d.getc( 'Topics' )[0].style.visibility = 'visible'
+	
+}
+
+function countDown(){
+	beenVisible--
+	if( !beenVisible ){
+		clearInterval( timer )
+		timer = null
+		d.getc( 'Topics' )[0].style.opacity = 0
+	}
+}
+
+function initTopicsList(){
+	for( var t in topicsList )
+		addTopic( topicsList[t] )
 }
 
 window.onload = init
+window.onscroll = changes
+window.onmousedown = changes
+window.onmouseup   = changes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

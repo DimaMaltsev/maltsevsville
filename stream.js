@@ -12,7 +12,7 @@ var dataStream = {
 						}
 					, {
 						date    :"24.05.13 1:41 AM",
-						topic   :"games",
+						topic   :"my games",
 						caption :"Game Dev Competition",
 						text    : "<p>Well. The first thing i wanna share is ours Game Dev competition participation.</p>" + 
 											" <p>Me and my friend Danyl Dantsev are taking part in Game development competition that is dedicated on sex awareness theme." + 
@@ -26,12 +26,20 @@ var dataStream = {
 						}
 					, {
 						date    :"24.05.13 11:45 PM",
-						topic   :"games",
+						topic   :"my games",
 						caption :"Game Competition surprises",
 						text    :"<p>Today at the office about 10 PM while playing CS:GO with my friend, i was happy realising that competition winners list is going to be announced really soon - "+
 											"what i just need is to go to bed and wake up with list recieved on my email box...</p>" +
 										 "<p>But today i was a little bit disappointed to recieve that email saying about deadline postpone.. </p>"+
 										 "<p>Now there is one more week ahead.. And thats not bad :)</p>",
+						images  :[]
+					}
+					, {
+						date    :"25.05.13 1:53 PM",
+						topic   :"music",
+						caption :"Goddamn good song",
+						text    :"<p>Listening to it for two days... still awsm.</p><p>Keeped me mad motivated at work today..</p> "
+										+"<p>Tokyo Police Club</p><br><audio controls src='songs/tokyo.mp3'/>",
 						images  :[]
 					}
 				]
