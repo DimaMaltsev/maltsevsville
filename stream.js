@@ -24,5 +24,15 @@ var dataStream = {
 											" <p> <a target='_blank' href='http://www.gamesforchange.org/2013/04/enter-the-sex-etc-game-design-contest-to-win-35000/'>Game Conf link </a></p> ",
 						images  :['condoms.png']
 						}
+					, {
+						date    :"24.05.13 11:45 PM",
+						topic   :"games",
+						caption :"Game Competition surprises",
+						text    :"<p>Today at the office about 10 PM while playing CS:GO with my friend, i was happy realising that competition winners list is going to be announced really soon - "+
+											"what i just need is to go to bed and wake up with list recieved on my email box...</p>" +
+										 "<p>But today i was a little bit disappointed to recieve that email saying about deadline postpone.. </p>"+
+										 "<p>Now there is one more week ahead.. And thats not bad :)</p>",
+						images  :[]
+					}
 				]
 }
