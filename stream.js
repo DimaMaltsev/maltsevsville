@@ -53,7 +53,7 @@ var dataStream = {
 						date    :"26.05.13 10:40 PM",
 						topic   :"reckoners",
 						caption :"Awsm repetition today",
-						text    :"<p>Came home few minutes ago happy and satisfied after todays awsm repetition with Reckones. </p> " + 
+						text    :"<p>Came home few minutes ago happy and satisfied after todays awsm repetition with Reckoners. </p> " + 
 										 "<p>Played our show program.. and think now its listenable :) And worked on new song Fake Naked. its incendiary!!</p>",
 						images  :[]
 					}
