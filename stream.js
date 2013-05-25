@@ -49,5 +49,13 @@ var dataStream = {
 						text    :"<p>My friends've built some kind of trampoline training center.. with two awsm jumps:) Cant wait to visit it!</p> ",
 						images  :["trampoline.jpg"]
 					}
+					, {
+						date    :"26.05.13 10:40 PM",
+						topic   :"reckoners",
+						caption :"Awsm repetition today",
+						text    :"<p>Came home few minutes ago happy and satisfied after todays awsm repetition with Reckones. </p> " + 
+										 "<p>Played our show program.. and think now its listenable :) And worked on new song Fake Naked. its incendiary!!</p>",
+						images  :[]
+					}
 				]
 }
