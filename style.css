@@ -23,7 +23,21 @@
 	position: absolute;
 	font-family: HelveticaLTStdRoman, Helvetica, Arial, Verdana, sans-serif;
 	top:-10;
-	left: 10%;
+	left: 110;
+}
+.name{
+	color: white;
+	position: absolute;
+	font-family: HelveticaLTStdRoman, Helvetica, Arial, Verdana, sans-serif;
+	top:-10;
+	left: 10;
+}
+.aware{
+	color: white;
+	position: absolute;
+	font-family: HelveticaLTStdRoman, Helvetica, Arial, Verdana, sans-serif;
+	top:-10;
+	right: 10;
 }
 body{
   background-color: white;

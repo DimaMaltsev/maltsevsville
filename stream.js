@@ -65,5 +65,13 @@ var dataStream = {
 										 "<p>Skateboarders against BMX riders.. well we've sucked... )</p>",
 						images  :[]
 					}
+					, {
+						date    :"26.05.13 8:59 PM",
+						topic   :"random",
+						caption :"Finished diploma part",
+						text    :"<p>Just finished new part of my graduation diploma. Thougth about posting something here.</p> " + 
+										 "<p>The most smart thought - post nothing www..</p>",
+						images  :[]
+					}
 				]
 }
