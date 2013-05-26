@@ -50,11 +50,19 @@ var dataStream = {
 						images  :["trampoline.jpg"]
 					}
 					, {
-						date    :"26.05.13 10:40 PM",
+						date    :"25.05.13 10:40 PM",
 						topic   :"reckoners",
 						caption :"Awsm repetition today",
 						text    :"<p>Came home few minutes ago happy and satisfied after todays awsm repetition with Reckoners. </p> " + 
 										 "<p>Played our show program.. and think now its listenable :) And worked on new song Fake Naked. its incendiary!!</p>",
+						images  :[]
+					}
+					, {
+						date    :"26.05.13 10:40 PM",
+						topic   :"random",
+						caption :"Football battle",
+						text    :"<p>While Rockets faced their most common in higher league opponent ( rockets'd crashed an enemy :) ), we had our own epic football (european) battle! </p> " + 
+										 "<p>Skateboarders against BMX riders.. well we've sucked... )</p>",
 						images  :[]
 					}
 				]
