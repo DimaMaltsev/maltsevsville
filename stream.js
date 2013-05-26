@@ -58,7 +58,7 @@ var dataStream = {
 						images  :[]
 					}
 					, {
-						date    :"26.05.13 10:40 PM",
+						date    :"26.05.13 7:03 PM",
 						topic   :"random",
 						caption :"Football battle",
 						text    :"<p>While Rockets faced their most common in higher league opponent ( rockets'd crashed an enemy :) ), we had our own epic football (european) battle! </p> " + 
