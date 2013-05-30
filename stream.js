@@ -73,13 +73,22 @@ var dataStream = {
 										 "<p>The most smart thought - post nothing www..</p>",
 						images  :[]
 					}
+					,{
+						date    :"28.05.13 11:21 PM",
+						topic   :"thoughts",
+						caption :"Reality",
+						text    :"<p>What if when physics cant handle an energy of object, object jumps into another reality where physics accepts that enery.</p> ",
+						images  :[]
+					}
 					, {
+
 						date    :"30.05.13 02:59 PM",
 						topic   :"training",
 						caption :"Skate trampoline",
 						text    :"<p>Yesterday visited my friends' trampolines. Brought my new skateboard deck with me to jump on it:)</p> " + 
 										 "<p>That's pretty cool :) landed shove it 360 and some grabs. found it little more difficult then i thought it would be..</p>",
-						images  :[]
+						images  : []
 					}
 				]
+
 }
