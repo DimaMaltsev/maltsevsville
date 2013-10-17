@@ -107,6 +107,15 @@ var dataStream = {
 										 "<p>Feel free to visit it)</p>",
 						images  : []
 					}
+						, {
+						    date : "18.10.13 00:39 AM",
+						    topic: "60days game",
+						    caption:"Fucking experiment",
+						    text : "<p>THIS IS FUCKING EXPERIMENT. Why am i so emotional?</p>" + 
+						    "<p>Cause i Fucking tired of my temporality (dont know if that word exists in english).</p>" + 
+"<p>I want to take a long term task for myselft thats only me involved in 100%. Long term in this case i mean 60 days. and how u should understand from the topic - thi swould be the game in 60 days project. Fir this time. Its gonna be remake of my old Game called The 5th Phase. I gonna recreate it from the scratch and add some new features. If i Win this competition. I gonna .. em. duno. i gonna give myself a trip to USA or some serfing camp in ASIA in summer. if i loose - i gonna go bold.. (dont want this case at aaalll.)</p>",
+						    images:[]
+						}
 				]
 
 }
