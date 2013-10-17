@@ -103,7 +103,7 @@ var dataStream = {
 						date    :"17.10.13 22:55 PM",
 						topic   :"reckoners",
 						caption :"PREALPHASHALPHA Website launch",
-						text    :"<p>We have created prealpha <a href='rcknrs.com'>rcknrs.com</a></p> " + 
+						text    :"<p>We have created prealpha <a href='www.rcknrs.com'>rcknrs.com</a></p> " + 
 										 "<p>Feel free to visit it)</p>",
 						images  : []
 					}
