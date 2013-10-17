@@ -121,7 +121,7 @@ var dataStream = {
 						    topic: "60days game",
 						    caption:"THE RUUUUULES",
 						    text:"<p>The Rules of this competition are : </p>"+
-						    +"1) Every Tuesday and Thuersday contribute to the game." + "<p>Huge rules list huh? This means that i only have 2 x 4 x 2 = 16 contributions for this competition. So i think i gonna add one more day - optional day on the week. That means i have 16 + 8 = 24 contributions for this game. this should be something like the half of normal full time working month. So in the end its not certainly going to be a finished game. LOWEST PERCENTAGE OF COMPLETED - 80% . so the final rules list is:" + 
+						    +"<p>1) Every Tuesday and Thuersday contribute to the game." + "<p>Huge rules list huh? This means that i only have 2 x 4 x 2 = 16 contributions for this competition. So i think i gonna add one more day - optional day on the week. That means i have 16 + 8 = 24 contributions for this game. this should be something like the half of normal full time working month. So in the end its not certainly going to be a finished game. LOWEST PERCENTAGE OF COMPLETED - 80% . so the final rules list is:</p>" + 
 + "<p>1) Contribution every thursday and tuesday</p><p>2) Contribution 1 more optional day in every week</p>"+
 						    +"<p>At the end this should be a 80% of features in game's feature list DONE!.</p><p>If one of this rule ever being broken while experiment period - i go BALD... hairless.</p>",
 						    images : []
