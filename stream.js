@@ -92,7 +92,7 @@ var dataStream = {
 					, {
 
 						date    :"17.10.13 22:44 PM",
-						topic   :"games",
+						topic   :"my games",
 						caption :"the 5th phase",
 						text    :"<p>this game from my past seems to be back) as a mr. Terminator does.. tryed to start working on it with impact js engine.. but things not suppose to go start really easy and fast).. think that i just need to work on my own js engine for my games.. 'cause this starts to be irritating..</p> " + 
 										 "<p>So the main point og this is that old game the 5th phase is going to be renewd.. Good luck us.</p>",
