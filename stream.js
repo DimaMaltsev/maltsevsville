@@ -98,6 +98,15 @@ var dataStream = {
 										 "<p>So the main point og this is that old game the 5th phase is going to be renewd.. Good luck us.</p>",
 						images  : []
 					}
+					, {
+
+						date    :"17.10.13 22:44 PM",
+						topic   :"reckoners",
+						caption :"PREALPHASHALPHA Website launch",
+						text    :"<p>We have created prealpha <a href='rcknrs.com'>rcknrs.com</a></p> " + 
+										 "<p>Feel free to visit it)</p>",
+						images  : []
+					}
 				]
 
 }
