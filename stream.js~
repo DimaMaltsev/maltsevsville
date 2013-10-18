@@ -133,6 +133,13 @@ var dataStream = {
 						    text:"<p>I thougth that first day is going to be tomorrow, but i am not patient at all.</p><p>So today is the first day and i gonna to implement basic physics logic for the game. Its going to be matrix like world.</p>",
 						    images:[]
 						}
+						, {
+						    date : "19.10.13 01:12 AM",
+						    topic: "60days game",
+						    caption:"Day number 1. Results",
+						    text: "<p>created engine for logical representateion of game world( matrix ) and some debug stuff to.... wait for it... debug some stuff. here is the example of debug grid.. red ones - world's blocks</p>",
+						    images:["debug.png"]
+						}
 				]
 
 }
