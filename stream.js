@@ -126,6 +126,13 @@ var dataStream = {
 						    "<p>3)At the end this should be a 80% of features in game's feature list DONE!.</p><p>If one of this rule ever being broken while experiment period - i go BALD... hairless.</p>",
 						    images : []
 						}
+						, {
+						    date : "19.10.13 00:06 AM",
+						    topic: "60days game",
+						    caption:"Day number 1",
+						    text:"<p>I thougth that first day is going to be tomorrow, but i am not patient at all.</p><p>So today is the first day and i gonna to implement basic physics logic for the game. Its going to be matrix like world.</p>",
+						    images:[]
+						}
 				]
 
 }
