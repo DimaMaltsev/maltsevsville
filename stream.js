@@ -139,12 +139,20 @@ var dataStream = {
 						    caption:"Day number 1. Results",
 						    text: "<p>created engine for logical representateion of game world( matrix ) and some debug stuff to.... wait for it... debug some stuff. here is the example of debug grid.. red ones - world's blocks</p>",
 						    images:["debug.png"]
-						}, {
+						}
+						, {
 						    date : "19.10.13 01:26 AM",
 						    topic: "60days game",
 						    caption:"Day number 1. Note",
 						    text: "<p> Just adding a note that i want to implement visualisation of only configurable local sector. in future. if i need thaaat",
 						    images:[]
+						}
+						, {
+						    date : "19.10.13 16:20 PM",
+						    topic: "60days game",
+						    caption: "Day number 1. More results",
+						    text: "<p> Finished visualisation of configurable local sector. you can set coordinates where to draw grid. we need this to debug collision boxes when world is real big - not to slow down the game (render only local grid sectors)</p>",
+						    images: ["debugsector"]
 						}
 				]
 
