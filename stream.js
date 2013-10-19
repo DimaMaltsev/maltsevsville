@@ -152,7 +152,7 @@ var dataStream = {
 						    topic: "60days game",
 						    caption: "Day number 1. More results",
 						    text: "<p> Finished visualisation of configurable local sector. you can set coordinates where to draw grid. we need this to debug collision boxes when world is real big - not to slow down the game (render only local grid sectors)</p>",
-						    images: ["debugsector"]
+						    images: ["debugsector.png"]
 						}
 				]
 
