@@ -154,6 +154,13 @@ var dataStream = {
 						    text: "<p> Finished visualisation of configurable local sector. you can set coordinates where to draw grid. we need this to debug collision boxes when world is real big - not to slow down the game (render only local grid sectors)</p>",
 						    images: ["debugsector.png"]
 						}
+						, {
+						    date : "23.10.13 01:38 AM",
+						    topic: "60days game",
+						    caption:"Day number 2. Results",
+						    test:"<p>Second day was not such productive. I've created some more physics stuff. Its Moving Objects collection and preparings before performing a physics step - gathering all matrixes together. now i want to create one step handling for only one object. and then i will be ready to do this for the whole world... and guess what. physics will be done. :)</p>",
+						    images:[]
+						}
 				]
 
 }
