@@ -158,7 +158,7 @@ var dataStream = {
 						    date : "23.10.13 01:38 AM",
 						    topic: "60days game",
 						    caption:"Day number 2. Results",
-						    test:"<p>Second day was not such productive. I've created some more physics stuff. Its Moving Objects collection and preparings before performing a physics step - gathering all matrixes together. now i want to create one step handling for only one object. and then i will be ready to do this for the whole world... and guess what. physics will be done. :)</p>",
+						    text:"<p>Second day was not such productive. I've created some more physics stuff. Its Moving Objects collection and preparings before performing a physics step - gathering all matrixes together. now i want to create one step handling for only one object. and then i will be ready to do this for the whole world... and guess what. physics will be done. :)</p>",
 						    images:[]
 						}
 				]
