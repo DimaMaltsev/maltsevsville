@@ -162,7 +162,7 @@ var dataStream = {
 						    images:[]
 						}
 						, {
-						    dat : "23.10.13 01:44 AM",
+						    date : "23.10.13 01:44 AM",
 						    topic:"random",
 						    caption:"GRAVITY the movie.",
 						    text:"<p>I've visited cinema today to watch this film.. and want to say HUUUUUGE thanks to creators of it... Such a masterpiece.. they've hold my attention for 1:30h with the help of only 1 actor, sound and space techs.</p><p>Gravity, please stay always in my mind - i want to remember all those lessons you gave me today...</p><p>THANKS</p>",
