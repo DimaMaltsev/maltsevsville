@@ -168,6 +168,13 @@ var dataStream = {
 						    text:"<p>I've visited cinema today to watch this film.. and want to say HUUUUUGE thanks to creators of it... Such a masterpiece.. they've hold my attention for 1:30h with the help of only 1 actor, sound and space techs.</p><p>Gravity, please stay always in my mind - i want to remember all those lessons you gave me today...</p><p>THANKS</p>",
 						    images:["gravity.jpg"]
 						}
+						, {
+						    date : "24.10.13 22:26 AM",
+						    topic: "60days game",
+						    caption: "Day number 3. YOHOO SOME SKETCHOOOS",
+						    text: "<p>Yeah!. Lets say today is the day wen graphics has boooorn. We got first sketches of our game characters CHEEEEECK THIS AWESOME PIECES OOOOUT!!!</p>",
+						    images: ["sketch1.png" , "sketch2.png"]
+						}
 				]
 
 }
