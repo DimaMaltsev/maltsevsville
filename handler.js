@@ -133,6 +133,7 @@ function clickOnTopic(){
 		news[i].style.display='block'
 	defColor = this.style.backgroundColor
 	d.body.style.backgroundColor = defColor
+	scrollTo(0,0)
 }
 
 function addTopic( name ){
