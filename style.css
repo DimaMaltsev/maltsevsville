@@ -90,6 +90,7 @@ body{
 	font-size: 20px;
 	color: #434445;
 	font-family: HelveticaLTStdRoman, Helvetica, Arial, Verdana, sans-serif;
+	cursor: pointer;
 }
 .topic{
 	margin-top: auto;

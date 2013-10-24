@@ -5,7 +5,8 @@ var
 	,	colors = [ "#F5DCF7" , "#6ADE82" ,  "#D4F1FC" , "#79E6E8"  , "#F07A2B" , "#FFD59E" , "#C2F2ED" ]
 
 	, defColor = colors[ 0 ]
-
+	
+	, newId = 0
 d.getc   = d.getElementsByClassName
 d.create = d.createElement 
 d.createc = function( el , cl , parent ){ 
@@ -35,6 +36,9 @@ function init(){
 	footer.in("Maltsevs Ville welcome!")
 	d.body.style.backgroundColor = defColor
 	d.getc('Stream')[0].onmousemove = function(){ d.body.style.backgroundColor = defColor ; changes() ;}
+	
+	var hash = location.hash.replace("#" , "")
+	gotoId(hash)
 }
 
 function paintTopics(){
@@ -49,6 +53,40 @@ function paintTopics(){
 function rollBack(){ // to do this func later
 	var 
 			p = d.getc('page')[0]
+}
+
+function gotoId( id ){
+	var 
+			captions = d.querySelectorAll(".caption")
+		,	foundid = null
+	for( var i = 0 ; i < captions.length ; i++ ){
+		if( captions[i].getAttribute( "newId" ) == id ){
+			foundid = i;
+			break;
+		}
+	}
+	
+	if( foundid == undefined )
+		return;
+	
+	for( var i = 0 ; i < captions.length; i++ )
+		if( i != foundid )
+			captions[i].parentNode.style.display = 'none'
+	
+	var 
+			parent 	= captions[ foundid ].parentNode
+		,	topic  	= parent.getElementsByClassName("topic")[0]
+		,	color 	= topic.style.backgroundColor 
+	
+	location.href="#" + foundid
+	defColor = color
+	d.body.style.backgroundColor = color ; changes() ;
+	scrollTo(0,0);
+}
+
+function onclick(){
+	var id = this.getAttribute("newId")
+	gotoId( id )
 }
 
 function addNew( news ){
@@ -67,6 +105,9 @@ function addNew( news ){
 		im.src = 'images/' + pass
 	}
 
+	caption.setAttribute( "newId" , newId++ )
+	caption.addEventListener( "click" , onclick , false )
+	
 	d.createc( 'hr' , 'downhr', div )
 
 	//n.topic = n.topic.toUpperCase()
@@ -135,8 +176,6 @@ window.onload = init
 window.onscroll = changes
 window.onmousedown = changes
 window.onmouseup   = changes
-
-
 
 
 
