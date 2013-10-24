@@ -59,22 +59,23 @@ function gotoId( id ){
 	var 
 			captions = d.querySelectorAll(".caption")
 		,	foundid = null
-	for( var i = 0 ; i < captions.length ; i++ ){
+		,	foundind= 0
+	for( var i = captions.length - 1 ; i >= 0 ; i-- ){
 		if( captions[i].getAttribute( "newId" ) == id ){
-			foundid = i;
+			foundid = id
+			foundind = i
 			break;
 		}
 	}
 	
 	if( foundid == undefined )
 		return;
-	
 	for( var i = 0 ; i < captions.length; i++ )
-		if( i != foundid )
+		if(  captions[i].getAttribute( "newId" ) != foundid )
 			captions[i].parentNode.style.display = 'none'
 	
 	var 
-			parent 	= captions[ foundid ].parentNode
+			parent 	= captions[ foundind ].parentNode
 		,	topic  	= parent.getElementsByClassName("topic")[0]
 		,	color 	= topic.style.backgroundColor 
 	
@@ -104,8 +105,8 @@ function addNew( news ){
 
 		im.src = 'images/' + pass
 	}
-
-	caption.setAttribute( "newId" , newId++ )
+	var id = newId++
+	caption.setAttribute( "newId" , dataStream.data.length - id )
 	caption.addEventListener( "click" , onclick , false )
 	
 	d.createc( 'hr' , 'downhr', div )
