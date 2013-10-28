@@ -175,6 +175,13 @@ var dataStream = {
 						    text: "<p>Yeah!. Lets say today is the day wen graphics has boooorn. We got first sketches of our game characters CHEEEEECK THIS AWESOME PIECES OOOOUT!!!</p>",
 						    images: ["sketch1.png" , "sketch2.png"]
 						}
+						, {
+						    date : "24.10.13 23:43 AM",
+						    topic: "random",
+						    caption: "MONKEN",
+						    text:"<p>Want to save this guy here</p>",
+						    images:["monken.jpg"]
+						}
 				]
 
 }
