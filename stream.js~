@@ -196,6 +196,13 @@ var dataStream = {
 						    text: "<p>In Friday we got one new sketch of our character - Angry one.</p>",
 						    images: [ "sketch3.png" ]
 						}
+						, {
+						    date : "29.10.13 17:12 AM",
+						    topic: "60days game",
+						    caption: "Day 4. Middle",
+						    text:"<p> have codded for about 4 hours - working on physics.. this blocks on picture are moving objects that are suppose not to intersect with each other, and instead of that they must collide. and do that properly (what does not happen). Gonna give it one more try in the evening</p>",
+						    images:["debugphysics.png"]
+						}
 				]
 
 }

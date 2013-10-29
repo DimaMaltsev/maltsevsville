@@ -203,6 +203,13 @@ var dataStream = {
 						    text:"<p> have codded for about 4 hours - working on physics.. this blocks on picture are moving objects that are suppose not to intersect with each other, and instead of that they must collide. and do that properly (what does not happen). Gonna give it one more try in the evening</p>",
 						    images:["debugphysics.png"]
 						}
+						, {
+						    date : "29.10.13 21:19 AM",
+						    topic: "60days game",
+						    caption: "Day 4. results",
+						    text: "<p>I did not finish physics today.. thats bad news. BUT! I have tried adding real objects to scene and monitor theirs collisions. Thats really cool) collision grid is setupable - it stretches on figure size. and you set up dencity of grid cells - this can make physics more complex.</p>",
+						    images: ["colorful.png"]
+						}
 				]
 
 }
