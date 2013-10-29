@@ -183,11 +183,18 @@ var dataStream = {
 						    images:["monken.jpg"]
 						}
 						, {
-						    date : "28.19.13 10:46 AM",
+						    date : "28.10.13 10:46 AM",
 						    topic: "random",
 						    caption: "12h hackathon",
 						    text: "<p>Finally i got here to the computer. It was hard messy Saturday the day before yesterday. we had to work for about 13 hours in a row to finish one big feature. AND IS DONE!</p>",
 						    images: []
+						}
+						, {
+						    date : "28.10.13 10:54 AM",
+						    topic: "60days game",
+						    caption: "MORE SKETCHOS",
+						    text: "<p>In Friday we got one new sketch of our character - Angry one.</p>",
+						    images: [ "sketch3.png" ]
 						}
 				]
 
