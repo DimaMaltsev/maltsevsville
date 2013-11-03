@@ -210,6 +210,14 @@ var dataStream = {
 						    text: "<p>I did not finish physics today.. thats bad news. BUT! I have tried adding real objects to scene and monitor theirs collisions. Thats really cool) collision grid is setupable - it stretches on figure size. and you set up dencity of grid cells - this can make physics more complex.</p>",
 						    images: ["colorful.png"]
 						}
+						, {
+						    date : "29.10.13 23:26 AM",
+						    topic: "60days game",
+						    caption: "some thoughts",
+						    text : "<p>Some evening thoughts about this idea in global. Im now working on something mine intimate and really continuous. first time in my life. this gonna be cool epic huge and supermoneyearning or i will go to another idea :D... One interesting thing - as long as i work on this project my mind is starting to give me new ideas, but good new is that they are messy. so im not switching on them))... </p>",
+						    images:[]
+						}
+						
 				]
 
 }

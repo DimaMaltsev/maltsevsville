@@ -217,6 +217,14 @@ var dataStream = {
 						    text : "<p>Some evening thoughts about this idea in global. Im now working on something mine intimate and really continuous. first time in my life. this gonna be cool epic huge and supermoneyearning or i will go to another idea :D... One interesting thing - as long as i work on this project my mind is starting to give me new ideas, but good new is that they are messy. so im not switching on them))... </p>",
 						    images:[]
 						}
+						, {
+						    date : "03.11.13 15:18 AM",
+						    topic : "60days game",
+						    caption: "Day 5 and Day 6.",
+						    text : "<p>On day  5 i have spent several hours working on gamedesign of The 5thPhase. Now its little bit wider than it was. And on day 6 im back to working on physics. From the scratch... You may wonder - wtf? why you dont use box2D or something? because i dont need mych physics functionality here. just two features - gravity and collision detections. now working on collision detection (gravity is not even started. thats all for now)</p>",
+						    images :[]
+						}
+						
 				]
 
 }
