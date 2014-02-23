@@ -2,7 +2,7 @@ var
 		d = document
 	,	beenVisible = 0
 	, timer = null
-	,	colors = [ "#F5DCF7" , "#6ADE82" ,  "#D4F1FC" , "#79E6E8"  , "#F07A2B" , "#FFD59E" , "#C2F2ED" , "red" , "cyan"]
+	,	colors = [ "#F5DCF7" , "#6ADE82" ,  "#D4F1FC" , "#79E6E8"  , "#F07A2B" , "#FFD59E" , "#C2F2ED" , "pink" , "cyan"]
 
 	, defColor = colors[ 0 ]
 	
