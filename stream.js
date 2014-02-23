@@ -224,6 +224,14 @@ var dataStream = {
 						    text : "<p>On day  5 i have spent several hours working on gamedesign of The 5thPhase. Now its little bit wider than it was. And on day 6 im back to working on physics. From the scratch... You may wonder - wtf? why you dont use box2D or something? because i dont need mych physics functionality here. just two features - gravity and collision detections. now working on collision detection (gravity is not even started. thats all for now)</p>",
 						    images :[]
 						}
+						, {
+						    date : "23.02.14 14:44",
+						    topic : "Pixel Art",
+						    caption: "Tribute",
+						    text : "<p>Always wanted to try pixel art. and after Ukraine was shocked by goverment actions... i want to say thanks to ukrainian heroes. and so i am starting to draw pixel art. here is my first work - Berkut soldier, that understands what they've just did.</p>",
+						    images :["soldier.png"]
+						}
+
 						
 				]
 
