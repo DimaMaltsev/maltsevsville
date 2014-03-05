@@ -238,7 +238,13 @@ var dataStream = {
 						    text : "<p>Couple days before. Something amazing happened to me! But. I don't want to share it. (Yes. so why do i post this? - who knows? im weird.). So in memory of that i want to teach myself to make a mistake in russian word klassno. i will spell it with single s forever. :D awesome!</p>",
 						    images :[]
 						}
-
+						, {
+						    date : "05.03.14 23:30",
+						    topic: "60days game",
+						    caption: "ITS OVER",
+						    text : "<p>Fuck that shit... i am not going to go bold :D sorry, my personal judge.</p>",
+						    images:[]
+						}
 						
 				]
 
