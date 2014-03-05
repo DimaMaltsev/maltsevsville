@@ -231,6 +231,13 @@ var dataStream = {
 						    text : "<p>Always wanted to try pixel art. and after Ukraine was shocked by goverment actions... i want to say thanks to ukrainian heroes. and so i am starting to draw pixel art. here is my first work - Berkut soldier, that understands what they've just did.</p>",
 						    images :["soldier.png"]
 						}
+						, {
+						    date : "05.03.14 23:28",
+						    topic : "random",
+						    caption: "Reteach",
+						    text : "<p>Couple days before. Something amazing happened to me! But. I don't want to share it. (Yes. so why do i post this? - who knows? im weird.). So in memory of that i want to teach myself to make a mistake in russian word klassno. i will spell it with single s forever. :D awesome!</p>",
+						    images :[]
+						}
 
 						
 				]
