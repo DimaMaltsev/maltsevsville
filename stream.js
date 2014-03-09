@@ -245,6 +245,13 @@ var dataStream = {
 						    text : "<p>Fuck that shit... i am not going to go bold :D sorry, my personal judge.</p>",
 						    images:[]
 						}
+						, {
+						    date : "09.03.14 21:16",
+						    topic: "Pixel art",
+						    caption: "MICHAEL JACKSON",
+						    text : "<p>Can you imagine Michael's everyday routine? :D. Here is my attempt.</p>",
+						    images:["michael.jpg"]
+						}
 						
 				]
 
