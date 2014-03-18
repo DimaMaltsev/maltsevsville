@@ -254,7 +254,7 @@ var dataStream = {
 						}
 						, {
 						    date : "18.03.14 23:42",
-						    topic: "Thoughts",
+						    topic: "thoughts",
 						    caption: "You are not serious",
 						    text : "<p>Yes.</p>",
 						    images:["fun.jpg"]
