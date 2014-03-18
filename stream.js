@@ -252,6 +252,13 @@ var dataStream = {
 						    text : "<p>Can you imagine Michael's everyday routine? :D. Here is my attempt.</p>",
 						    images:["michael.jpg"]
 						}
+						, {
+						    date : "18.03.14 23:42",
+						    topic: "Thoughts",
+						    caption: "You are not serious",
+						    text : "<p>Yes.</p>",
+						    images:["fun.jpg"]
+						}
 						
 				]
 
