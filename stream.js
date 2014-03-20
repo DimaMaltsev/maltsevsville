@@ -259,6 +259,14 @@ var dataStream = {
 						    text : "<p>Yes.</p>",
 						    images:["fun.jpg"]
 						}
+        
+						, {
+						    date : "20.03.14 22:57",
+						    topic: "random",
+						    caption: "Inspire me Phil",
+						    text : "<p>Soon i gona have the room like this to create my FEZ.</p>",
+						    images:["polytron.jpg"]
+						}
 						
 				]
 
