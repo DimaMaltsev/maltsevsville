@@ -2,7 +2,7 @@ var
 		d = document
 	,	beenVisible = 0
 	, timer = null
-	,	colors = [ "#F5DCF7" , "#6ADE82" ,  "#D4F1FC" , "#79E6E8"  , "#F07A2B" , "#FFD59E" , "#C2F2ED" , "pink" , "cyan"]
+	,	colors = [ "#F5DCF7" , "#6ADE82" ,  "#D4F1FC" , "#79E6E8"  , "#F07A2B" , "#FFD59E" , "#C2F2ED" , "pink" , "cyan" , "violet" , "lightblue" ]
 
 	, defColor = colors[ 0 ]
 	
@@ -99,12 +99,25 @@ function addNew( news ){
 		, text    = d.createc( 'p'  , 'text'    , div )
 		, date    = d.createc( 'p'  , 'date'    , div )
 
+    if( n.images )
 	for( var i in n.images ){
 		var pass = n.images[i]
 			,	im   = d.createc( 'img'  , 'image'  , div )
 
 		im.src = 'images/' + pass
 	}
+    
+    if( n.videos )
+    for( var i in n.videos ){
+		var pass = n.videos[i]
+			,	vid   = d.createc( 'video'  , 'video'  , div )
+            ,   src   = d.createc( 'source' , 'source' , vid );
+        
+		src.src = 'videos/' + pass
+        src.type= 'video/mp4';
+        vid.setAttribute( 'controls' , "" );
+	}
+    
 	var id = newId++
 	caption.setAttribute( "newId" , dataStream.data.length - id )
 	caption.addEventListener( "click" , onclick , false )

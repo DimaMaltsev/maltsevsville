@@ -226,7 +226,7 @@ var dataStream = {
 						}
 						, {
 						    date : "23.02.14 14:44",
-						    topic : "Pixel Art",
+						    topic : "Pixel art",
 						    caption: "Tribute",
 						    text : "<p>Always wanted to try pixel art. and after Ukraine was shocked by goverment actions... i want to say thanks to ukrainian heroes. and so i am starting to draw pixel art. here is my first work - Berkut soldier, that understands what they've just did.</p>",
 						    images :["soldier.png"]
@@ -276,6 +276,28 @@ var dataStream = {
 						    images:["tigsource.gif"]
 						}
 						
+                        , {
+						    date : "21.03.14 23:40",
+						    topic: "work",
+						    caption: "My workplace",
+						    text : "<p>Was inspired by Phil to take a photo..</p>",
+						    images:["workplace.jpg"]
+						}
+        
+                        , {
+						    date : "21.03.14 23:41",
+						    topic: "work",
+						    caption: "LEGO Batman!",
+						    text : "<p>WHYUWANAKILME? WRWRWRWRWRWR</p>",
+						    images:["batman.jpg"]
+						}
+                        , {
+						    date : "21.03.14 23:42",
+						    topic: "work",
+						    caption: "Todays work result",
+						    text : "<p>Kinda funny</p>",
+						    videos:["workresult.mp4"]
+						}
 				]
 
 }
