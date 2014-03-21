@@ -298,6 +298,14 @@ var dataStream = {
 						    text : "<p>Kinda funny</p>",
 						    videos:["workresult.mp4"]
 						}
+        
+                        , {
+						    date : "22.03.14 00:50",
+						    topic: "random",
+						    caption: "Meatboy Ninja",
+						    text : "",
+						    images:["meatboyninja.png"]
+						}
 				]
 
 }
