@@ -226,7 +226,7 @@ var dataStream = {
 						}
 						, {
 						    date : "23.02.14 14:44",
-						    topic : "Pixel art",
+						    topic : "pixel art",
 						    caption: "Tribute",
 						    text : "<p>Always wanted to try pixel art. and after Ukraine was shocked by goverment actions... i want to say thanks to ukrainian heroes. and so i am starting to draw pixel art. here is my first work - Berkut soldier, that understands what they've just did.</p>",
 						    images :["soldier.png"]
@@ -247,7 +247,7 @@ var dataStream = {
 						}
 						, {
 						    date : "09.03.14 21:16",
-						    topic: "Pixel art",
+						    topic: "pixel art",
 						    caption: "MICHAEL JACKSON",
 						    text : "<p>Can you imagine Michael's everyday routine? :D. Here is my attempt.</p>",
 						    images:["michael.jpg"]
@@ -312,6 +312,14 @@ var dataStream = {
 						    caption: "Inspiration",
 						    text : "",
 						    images:["indiegame.png"]
+						}
+        
+                        , {
+						    date : "22.03.14 21:45",
+						    topic: "pixel art",
+						    caption: "Gumble - my friends doggy.",
+						    text : "",
+						    images:["gumble.gif" , "gumble-run.gif"]
 						}
 				]
 
