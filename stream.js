@@ -321,6 +321,13 @@ var dataStream = {
 						    text : "",
 						    images:["gumble.gif" , "gumble-run.gif"]
 						}
+        
+                        , {
+						    date : "22.03.14 23:12",
+						    topic: "thoughts",
+						    text: "As long as you are able.. you should do weird tricky stuff, that nobody understand or even somebody tries to prevent you doing that. But the thing is that weird and tricky stuff is a life. Its a different life. Its your choice. IF you stop doing what you love - you become average, your life becomes average. Show off more often. Try Try Try.",
+						    caption : "Average Life"
+						}
 				]
 
 }
