@@ -303,8 +303,7 @@ var dataStream = {
 						    date : "22.03.14 00:50",
 						    topic: "random",
 						    caption: "Meatboy Ninja",
-						    text : "",
-						    images:["meatboyninja.png"]
+						    text : "<p><center><img width=50px src='images/meatboyninja.png'></img></center></p>"
 						}
                         , {
 						    date : "22.03.14 15:25",
@@ -318,8 +317,8 @@ var dataStream = {
 						    date : "22.03.14 21:45",
 						    topic: "pixel art",
 						    caption: "Gumble - my friends doggy.",
-						    text : "",
-						    images:["gumble.gif" , "gumble-run.gif"]
+						    text : "<p><center><img width=50px src='images/gumble.gif'></img><img width=50px src='images/gumble-run.gif'></img></center></p>"//,
+						    //images:["gumble.gif" , "gumble-run.gif"]
 						}
         
                         , {
