@@ -155,9 +155,17 @@ function addTopic( name ){
 			topics = d.getc( 'Topics' )[0]
 		, topic  = d.createc( 'p'  , 'topicInList ' + name.toLowerCase()   , topics )
 		
-
+    
 	topic.topic = name.toLowerCase()
-	topic.in( "# " + name )
+    
+    var 
+        count = 0
+    for( var n = dataStream.data.length - 1 ; n >= 0; n -- ){
+		if( dataStream.data[ n ].topic.toLowerCase() == name.toLowerCase() )
+            count++;
+	}
+    
+	topic.in( "# " + name + ( name == "all" ? "" : " ("+count+")" ) )
 	topic.onmousemove = function(){ d.body.style.backgroundColor = this.style.backgroundColor }
 	topic.onclick     = clickOnTopic
 	topic.style.backgroundColor = colors.shift()
