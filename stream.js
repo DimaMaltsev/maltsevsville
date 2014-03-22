@@ -228,7 +228,7 @@ var dataStream = {
 						    date : "23.02.14 14:44",
 						    topic : "pixel art",
 						    caption: "Tribute",
-						    text : "<p>Always wanted to try pixel art. and after Ukraine was shocked by goverment actions... i want to say thanks to ukrainian heroes. and so i am starting to draw pixel art. here is my first work - Berkut soldier, that understands what they've just did.</p>",
+						    text : "<p>Always wanted to try pixel art. and after Ukraine was shocked by goverment actions... i want to say thanks to ukrainian heroes. and so i am starting to draw pixel art. here is my first work - Berkut soldier, that understands what they've done.</p>",
 						    images :["soldier.png"]
 						}
 						, {
