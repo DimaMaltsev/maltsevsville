@@ -341,6 +341,13 @@ var dataStream = {
 						    caption : "Break Dance",
 						    text: "<p>There are many situations in my life when i regret i cant do breakdancing...</p>"
 						}
+						, {
+						    date : "24.03.14 19:28",
+						    topic: "my games",
+						    caption : "Blocks",
+						    text: "<p>that actly looks pretty good</p>",
+						    images: ["blocks.png"]
+						}
 				]
 
 }
