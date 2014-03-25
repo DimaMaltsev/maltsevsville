@@ -369,6 +369,12 @@ var dataStream = {
 						    text: "<p>Got some progress with block figures generation. Here you can see the massive of figures. It contains elements of different nature that can interact with each other. Lava + Ice = ice is melting (thats for example). The form of the figure is uncontrolably random (for now). Later ill give more attention to the generation, so we can generate images, for example. And the next thing i gonna do - write all player interfaces..</p>",
 						    images: ["blokcscombined.png"]
 						}
+                        , {
+						    date : "25.03.14 23:32",
+						    topic: "random",
+						    caption : "Polytron Logo",
+						    images: ["polytweet.jpg"]
+						}
 				]
 
 }
