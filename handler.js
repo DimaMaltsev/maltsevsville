@@ -165,7 +165,7 @@ function addTopic( name ){
             count++;
 	}
     
-	topic.in( "# " + name + ( name == "all" ? "" : " ("+count+")" ) )
+	topic.in( "# " + name + ( name == "all" ? "("+dataStream.data.length+")" : " ("+count+")" ) )
 	topic.onmousemove = function(){ d.body.style.backgroundColor = this.style.backgroundColor }
 	topic.onclick     = clickOnTopic
 	topic.style.backgroundColor = colors.shift()
