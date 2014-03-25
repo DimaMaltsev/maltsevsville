@@ -353,7 +353,7 @@ var dataStream = {
 						    topic: "pixel art",
 						    caption : "Hyper Light Drifter",
 						    text: "<p>awesome</p>",
-						    images: ["gld.gif"]
+						    images: ["gld.gif", "gld2.gif"]
 						}
 				]
 
