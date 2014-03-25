@@ -351,7 +351,7 @@ var dataStream = {
                         , {
 						    date : "25.03.14 10:19",
 						    topic: "pixel art",
-						    caption : "Gyper Light Drifter",
+						    caption : "Hyper Light Drifter",
 						    text: "<p>awesome</p>",
 						    images: ["gld.gif"]
 						}
