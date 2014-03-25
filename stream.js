@@ -362,6 +362,13 @@ var dataStream = {
 						    text: "<p>Checkout these awesome pieces of <a href='http://www.riotgame.org/'> RIOT simulator </a> <br> <br><img src='images/riot1.gif'><img width=100px src='images/riot2.gif'><img width=100px src='images/riot3.gif'><img width=100px src='images/riot4.gif'><img width=100px src='images/riot5.gif'><img width=100px src='images/riot6.gif'><img width=100px src='images/riot7.gif'><img width=100px src='images/riot8.gif'></p>",
 						    images: ["banksy.png"]
 						}
+						, {
+						    date : "25.03.14 18:17",
+						    topic: "my games",
+						    caption : "5th phase",
+						    text: "<p>Got some progress with block figures generation. Here you can see the massive of figures. It contains elements of different nature that can interact with each other. Lava + Ice = ice is melting (thats for example). The form of the figure is uncontrolably random (for now). Later ill give more attention to the generation, so we can generate images, for example. And the next thing i gonna do - write all player interfaces..</p>",
+						    images: ["blokcscombined.png"]
+						}
 				]
 
 }
