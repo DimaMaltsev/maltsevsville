@@ -373,6 +373,7 @@ var dataStream = {
 						    date : "25.03.14 23:32",
 						    topic: "random",
 						    caption : "Polytron Logo",
+						    text: "",
 						    images: ["polytweet.jpg"]
 						}
 				]

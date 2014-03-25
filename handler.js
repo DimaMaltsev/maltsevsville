@@ -127,7 +127,7 @@ function addNew( news ){
 	//n.topic = n.topic.toUpperCase()
 	caption.in( n.caption )
 	topic.in  ( "# " + n.topic )
-	text.in   ( n.text == undefined ? "" : n.text )
+	text.in   ( n.text    )
 	date.in   ( n.date    )
 
 	stream.appendChild( div )
