@@ -376,6 +376,13 @@ var dataStream = {
 						    text: "",
 						    images: ["polytweet.jpg"]
 						}
+        
+                        , {
+						    date : "30.03.14 00:28",
+						    topic: "thoughts",
+						    caption : "Computer world",
+						    text: "this new thing. that appears right now. its a real magic. new world. its so deep and comfortable. you can dive in and walk around it for ages. so different."
+						}
 				]
 
 }
