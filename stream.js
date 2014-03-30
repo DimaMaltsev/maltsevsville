@@ -383,6 +383,12 @@ var dataStream = {
 						    caption : "Computer world",
 						    text: "this new thing. that appears right now. its a real magic. new world. its so deep and comfortable. you can dive in and walk around it for ages. so different."
 						}
+                        , {
+						    date : "31.03.14 01:10",
+						    topic: "my games",
+						    caption : "Today i've worked on PUZZLE",
+						    text: '<iframe width="560" height="315" src="//www.youtube.com/embed/uoOIv_P8X3M" frameborder="0" allowfullscreen></iframe>'
+						}
 				]
 
 }
