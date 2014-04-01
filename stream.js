@@ -387,7 +387,7 @@ var dataStream = {
 						    date : "31.03.14 01:10",
 						    topic: "my games",
 						    caption : "Today i've worked on PUZZLE",
-						    text: ''
+						    text: '<iframe width="300" height="200" src="//www.youtube.com/embed/uoOIv_P8X3M" frameborder="0" allowfullscreen></iframe>'
 						}
                         , {
 						    date : "01.04.14 23:40",
