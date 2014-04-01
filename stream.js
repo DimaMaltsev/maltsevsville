@@ -393,7 +393,7 @@ var dataStream = {
 						    date : "01.04.14 23:40",
 						    topic: "my games",
 						    caption : "MUSHROOM JUMP",
-						    text: "<p>YOYO Wozzup. Im now working on one more game. Its YAKKUDZONA's game. He invited me to help transform this game on Unity. And i've agreed... and that's not a jok.. even today ;) </p>",
+						    text: "<p>YOYO Wozzup. Im now working on one more game. Its YAKKUDZONA's game. He invited me to help transform this game on Unity. And i've agreed... and that's not a joke.. even today ;) </p>",
                             images : ["mushroom.png"]
 						}
 				]
