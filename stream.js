@@ -389,6 +389,13 @@ var dataStream = {
 						    caption : "Today i've worked on PUZZLE",
 						    text: '<iframe width="300" height="200" src="//www.youtube.com/embed/uoOIv_P8X3M" frameborder="0" allowfullscreen></iframe>'
 						}
+                        , {
+						    date : "01.04.14 23:40",
+						    topic: "my games",
+						    caption : "MUSHROOM JUMP",
+						    text: "<p>YOYO Wozzup. Im now working on one more game. Its YAKKUDZONA's game. He invited me to help transform this game on Unity. And i've agreed... and that's not a jok.. even today ;) </p>",
+                            images : ["mushroom.png"]
+						}
 				]
 
 }
