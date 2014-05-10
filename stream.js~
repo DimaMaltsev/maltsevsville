@@ -405,5 +405,17 @@ var dataStream = {
                             images : ["friendy.png"]
 						}
 				]
+	, {
+	date : "10.05.14 23:59",
+	topic: "thoughts",
+	caption: "Choses",
+	text: "<p> Before do something - think about that you will live with that for entire life</p>"
+    }
+	,{
+	date : "10.05.14 00:00",
+	topic : "my games",
+	caption: "5th phase conrinues"m
+	text:"<p>we were rly close to our game death (as project). But after 2 weeks of hard work (2 night times) we've created something fun and interesting to play. So we can continue. Now we are concentrating on CTF game mode ONLY to do it as much fun as it is inf Quake or Unreal Tournament</p>"
+    }
 
 }
