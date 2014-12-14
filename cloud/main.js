@@ -10,6 +10,20 @@ function queryFind(query, response){
 	});
 }
 
+Parse.Cloud.beforeSave("cookie", function(request, response) {
+	var query = new Parse.Query('password');
+	query.find({
+		success: function(results){
+			if (results[0].get('password')===request.object.get('password')){
+				response.success();
+			}
+			else{
+				response.error("Save attemt with WRONG password.");
+			}
+		}
+	});
+});
+
 Parse.Cloud.define("getAllCookies", function(request, response) {
 	var query = new Parse.Query('cookie');
 	queryFind(query, response);

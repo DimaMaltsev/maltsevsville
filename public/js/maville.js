@@ -1,6 +1,7 @@
 angular.module('maville', [])
 .controller('ctrl',function($scope, getAllCookies, pushCookie, validatePassword){
 	var validated=false;
+	var password="";
 
 	$scope.cookies = [];
 	$scope.writingCookie = false;
@@ -47,7 +48,8 @@ angular.module('maville', [])
 				
 				pushCookie({
 					caption: $scope.newCookieCaption,
-					html: $scope.newCookieText
+					html: $scope.newCookieText,
+					password: password
 				},(function(callback){
 					return function(){ getAllCookies(callback) };
 				})(updateCookies))
@@ -62,7 +64,7 @@ angular.module('maville', [])
 		}
 
 		if(!validated){
-			var password = prompt("Dima, is that you?", "");
+			password = prompt("Dima, is that you?", "");
 			validatePassword(password, function(response){
 				if(response.result === true){
 					showInput();
