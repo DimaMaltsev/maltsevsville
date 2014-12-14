@@ -1,11 +1,32 @@
 angular.module('maville', [])
 .controller('ctrl',function($scope, getAllCookies, pushCookie, validatePassword){
 	var validated=false;
-	var password="";
+	var password=getCookie('password');
+	console.log(password);
+	if(password!=null){
+		validated = true;
+	}
 
 	$scope.cookies = [];
 	$scope.writingCookie = false;
 	$scope.inputValidated = true;
+
+	function getCookie(c_name) {
+		var c_value = " " + document.cookie;
+		var c_start = c_value.indexOf(" " + c_name + "=");
+		if (c_start == -1) {
+		    c_value = null;
+		}
+		else {
+		    c_start = c_value.indexOf("=", c_start) + 1;
+		    var c_end = c_value.indexOf(";", c_start);
+		    if (c_end == -1) {
+		        c_end = c_value.length;
+		    }
+		    c_value = unescape(c_value.substring(c_start,c_end));
+		}
+		return c_value;
+	}
 
 	function deleteAllBrowserCookies() {
 	    var cookies = document.cookie.split(";");
@@ -67,6 +88,7 @@ angular.module('maville', [])
 			password = prompt("Dima, is that you?", "");
 			validatePassword(password, function(response){
 				if(response.result === true){
+					document.cookie = "password=" + password;
 					showInput();
 				}
 			})
