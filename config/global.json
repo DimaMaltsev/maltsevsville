@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "_default": {
+            "link": "maville"
+        }, 
+        "maville": {
+            "applicationId": "9uEnNEj8nJoBYKrYt6qsgRzr7OSpMz0Cuo6REr3A", 
+            "masterKey": "OoJK3G6VDGwYEXf3cXQXn1tJTe4zIAFNaq8gkF3Y"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.3.2"
+    }
+}

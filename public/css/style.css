@@ -1,0 +1,28 @@
+body {
+	margin:50px 0px; 
+	padding:0px;
+	text-align:center;
+}
+
+.cookieContainer {
+	width:300px;
+	margin:0px auto;
+	padding:15px;
+	position: relative;
+}
+
+.cookie {
+	margin-bottom: 40px;
+}
+
+.date{
+	color:#d1d1d1;
+}
+
+.time{
+	color:#b9b9b9;
+}
+
+.invisible{
+	display: none;
+}
