@@ -1,9 +1,9 @@
 angular.module('maville')
 .directive('cookie', function(){
-	var template = 	'<div class="cookie panel panel-default">' +
-						'<div class="panel-heading">{{cookie.caption}}</div>' +
-						'<h6 class="html panel-body"></h6>' +
-						'<div class="panel-footer"><span class="date">{{cookie.time.date}}</span> <span class="time">{{cookie.time.time}}</span></div>'
+	var template = 	'<div class=""><hr>' +
+						'<div class="">{{cookie.caption}}</div>' +
+						'<h6 class="html"></h6>' +
+						'<div class=""><span class="date">{{cookie.time.date}}</span> <span class="time">{{cookie.time.time}}</span></div>'
 					'</div>'
 	return {
 		template: template,
