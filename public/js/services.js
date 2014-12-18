@@ -68,4 +68,10 @@ angular.module('maville')
 			dateNumber: Math.floor(new Date(dateString.split('Z')[0])/1000)
 		}
 	}
+})
+.factory('randomColor', function(){
+	var colors = ['#DDE0FF', '#E4BEE8', '#FFD8CF', '#E8D6B1', '#F6FFC9'];
+	return function(){
+		return colors[Math.floor(Math.random() * colors.length)];
+	}
 });

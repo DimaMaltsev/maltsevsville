@@ -1,5 +1,5 @@
 angular.module('maville', [])
-.controller('ctrl',function($scope, getAllCookies, pushCookie, validatePassword, sortPosts, parseDate){
+.controller('ctrl',function($scope, getAllCookies, pushCookie, validatePassword, sortPosts, parseDate, randomColor){
 	var validated=false;
 	var password=getCookie('password');
 
@@ -27,7 +27,7 @@ angular.module('maville', [])
 		}
 		return c_value;
 	}
-	
+
 	function deleteAllBrowserCookies() {
 	    var cookies = document.cookie.split(";");
 
@@ -95,6 +95,6 @@ angular.module('maville', [])
 		}
 	}
 
-
 	getAllCookies(updateCookies);
-})
+	//document.body.style.backgroundColor = randomColor(); // we dont want it right now
+});
