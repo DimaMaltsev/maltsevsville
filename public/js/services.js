@@ -40,4 +40,32 @@ angular.module('maville')
 		ajaxObject.success = success;
 		$.ajax(ajaxObject);
 	};
+})
+
+.factory('sortPosts', function(parseDate){ // TODO: change bubble sort on something else
+	return function(posts){
+		for(var i = 0; i < posts.length; i++){
+			posts[i].dateNumber = parseDate(posts[i].createdAt).dateNumber;
+		}
+		for(var i = 0; i < posts.length; i++){
+			for(var j = 0; j < posts.length; j++){
+				if(posts[i].dateNumber>posts[j].dateNumber){
+					var tmp = posts[i];
+					posts[i] = posts[j];
+					posts[j] = tmp;
+				}
+			}
+		}
+		return posts;
+	}
+})
+.factory('parseDate', function(){
+	return function(dateString){
+		return {
+			date: dateString.split('T')[0],
+			time: dateString.split('T')[1].replace('Z', '').split('.')[0],
+			dateString: dateString.split('Z')[0],
+			dateNumber: Math.floor(new Date(dateString.split('Z')[0])/1000)
+		}
+	}
 });

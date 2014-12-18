@@ -1,8 +1,8 @@
 angular.module('maville', [])
-.controller('ctrl',function($scope, getAllCookies, pushCookie, validatePassword){
+.controller('ctrl',function($scope, getAllCookies, pushCookie, validatePassword, sortPosts, parseDate){
 	var validated=false;
 	var password=getCookie('password');
-	console.log(password);
+
 	if(password!=null){
 		validated = true;
 	}
@@ -27,7 +27,7 @@ angular.module('maville', [])
 		}
 		return c_value;
 	}
-
+	
 	function deleteAllBrowserCookies() {
 	    var cookies = document.cookie.split(";");
 
@@ -40,7 +40,7 @@ angular.module('maville', [])
 	}
 
 	function updateCookies(result){
-		$scope.cookies = result.result.reverse();
+		$scope.cookies = sortPosts(result.result);//.reverse();
 		$scope.$digest();
 	}
 
@@ -56,8 +56,6 @@ angular.module('maville', [])
 	function validateInput(caption, text){
 		return caption.length !== 0 || text.length !== 0;
 	}
-
-	getAllCookies(updateCookies);
 
 	$scope.notWritingCookie = function(){
 		return !writingCookie;
@@ -96,4 +94,7 @@ angular.module('maville', [])
 			showInput(true);
 		}
 	}
+
+
+	getAllCookies(updateCookies);
 })
