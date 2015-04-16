@@ -1,0 +1,154 @@
+.page{
+}
+.Header{/*
+	background-color: white;*/
+	height:0px;
+	text-align: center;
+	font-size: 50px;
+}
+.Stream{
+
+}
+.Stripe{
+	background-color: black;
+	height : 30px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+.me{
+	color: orange;
+	position: absolute;
+	font-family: HelveticaLTStdRoman, Helvetica, Arial, Verdana, sans-serif;
+	top:-10;
+	left: 110;
+}
+.name{
+	color: white;
+	position: absolute;
+	font-family: HelveticaLTStdRoman, Helvetica, Arial, Verdana, sans-serif;
+	top:-10;
+	left: 10;
+}
+.aware{
+	color: white;
+	position: absolute;
+	font-family: HelveticaLTStdRoman, Helvetica, Arial, Verdana, sans-serif;
+	top:-10;
+	right: 10;
+}
+body{
+  background-color: white;
+  transition: background-color .5s linear;
+  -moz-transition: background-color .5s linear;
+  -webkit-transition: background-color .5s linear;
+  -o-transition: background-color .5s linear;
+  -ms-transition: background-color .5s linear;
+}
+.Topics{
+  position:fixed;
+  top:30%; left:70%;
+  visibility: visible;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  -moz-transition: opacity .3s ease-in-out;
+  -webkit-transition: opacity .3s ease-in-out;
+  -o-transition: opacity .3s ease-in-out;
+  -ms-transition: opacity .3s ease-in-out;
+}
+
+.topicInList{
+	font-size: 17px;
+	width : 110%;
+	text-align: left;
+	margin-bottom: -17;
+	cursor: pointer;
+	color : white;
+	font-family: HelveticaLTStdRoman, Helvetica, Arial, Verdana, sans-serif;/*Lucida Console;*/
+}
+
+.new{/*
+	background-color: white;*/
+	width: 320px;
+	position: relative;
+	margin-top: 70px;
+	margin-left: auto ;
+  	margin-right: auto ;
+}
+
+.downhr {
+  border-top: 2px dotted #000;
+  position: absolute;
+  bottom:-50;
+  left:-5%;
+  width:110%;
+  visibility: hidden;
+}
+.caption{
+	font-size: 20px;
+	color: #434445;
+	font-family: HelveticaLTStdRoman, Helvetica, Arial, Verdana, sans-serif;
+	cursor: pointer;
+}
+.topic{
+	margin-top: auto;
+	position: absolute;
+	bottom: -50;
+    right: 0;
+    color: white;
+    font-size: 13px;
+    font-family: HelveticaLTStdRoman, Helvetica, Arial, Verdana, sans-serif;
+    cursor: pointer;
+}
+.text{
+	font-size: 12px;
+	font-family: HelveticaLTStdRoman, Helvetica, Arial, Verdana, sans-serif;
+	text-align: justify;
+	color: #616161;
+	text-indent: 20px;
+}
+.date{
+	margin-top: auto;
+	position: absolute;
+	bottom: -50;
+    left: 0;
+    color: 616161;
+    font-size: 13px;
+    font-family: HelveticaLTStdRoman, Helvetica, Arial, Verdana, sans-serif;
+}
+.image{
+	width:100%;
+}
+
+.video{
+	width:100%;
+}
+.footer{
+	position: relative;
+	margin-top: 60;
+	width: 320px;
+	margin-left: auto ;
+  	margin-right: auto ;
+    color: lightGrey;
+    font-size: 10px;
+    font-family: HelveticaLTStdRoman, Helvetica, Arial, Verdana, sans-serif;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

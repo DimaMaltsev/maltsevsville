@@ -1,0 +1,421 @@
+var dataStream = {
+
+	data :[
+						{
+							date    :"24.05.13 1:38 AM",
+							topic   :"random",
+							caption :"init message",
+							text    :"blogging is not the common thing to me." + 
+											 " But i love collecting my memories, art pieces and other things i'm interested in." + 
+											 " Those kind of stuff is going to be collected here.",
+							images  :[]
+						}
+					, {
+						date    :"24.05.13 1:41 AM",
+						topic   :"my games",
+						caption :"Game Dev Competition",
+						text    : "<p>Well. The first thing i wanna share is ours Game Dev competition participation.</p>" + 
+											" <p>Me and my friend Danyl Dantsev are taking part in Game development competition that is dedicated on sex awareness theme." + 
+											" Competition deadline is almost here - 25th of May (U.S. time).</p> " +
+											" <p> So here we gonna meet the deadline at 5 AM of Saturday's morning. </p> " +
+											" <p>Im not worried about this competition 'cause as always, this is almost unreal to win something serious with the game created in two days.</ps>" + 
+											" <p>But in case we win there, there will be a great chance for us to establish our own game dev production... </p>" + 
+											" <p>Here is a link to <a target='_blank' href='http://dl.dropboxusercontent.com/u/2959036/sex/index.html'>our Game </a>. So u can take a look at it if u want :)</p>" +
+											" <p> <a target='_blank' href='http://www.gamesforchange.org/2013/04/enter-the-sex-etc-game-design-contest-to-win-35000/'>Game Conf link </a></p> ",
+						images  :['condoms.png']
+						}
+					, {
+						date    :"24.05.13 11:45 PM",
+						topic   :"my games",
+						caption :"Game Competition surprises",
+						text    :"<p>Today at the office about 10 PM while playing CS:GO with my friend, i was happy realising that competition winners list is going to be announced really soon - "+
+											"what i just need is to go to bed and wake up with list recieved on my email box...</p>" +
+										 "<p>But today i was a little bit disappointed to recieve that email saying about deadline postpone.. </p>"+
+										 "<p>Now there is one more week ahead.. Okay then.. </p>",
+						images  :[]
+					}
+					, {
+						date    :"25.05.13 1:53 PM",
+						topic   :"music",
+						caption :"Goddamn good song",
+						text    :"<p>Listening to it for two days... still awsm.</p> "
+										+"<p>Tokyo Police Club - Bambi</p><br><audio preload=none controls src='songs/tokyo.mp3'/>",
+						images  :[]
+					}
+					, {
+						date    :"25.05.13 2:28 PM",
+						topic   :"training",
+						caption :"Friends' Trampoline",
+						text    :"<p>My friends've built some kind of trampoline training center.. with two awsm jumps:) Cant wait to visit it!</p> ",
+						images  :["trampoline.jpg"]
+					}
+					, {
+						date    :"25.05.13 10:40 PM",
+						topic   :"reckoners",
+						caption :"Awsm repetition today",
+						text    :"<p>Came home few minutes ago happy and satisfied after todays awsm repetition with Reckoners. </p> " + 
+										 "<p>Played our show program.. and think now its listenable :) And worked on new song Fake Naked. its incendiary!!</p>",
+						images  :[]
+					}
+					, {
+						date    :"26.05.13 7:03 PM",
+						topic   :"random",
+						caption :"Football battle",
+						text    :"<p>While Rockets faced their most common in higher league opponent ( rockets'd crashed an enemy :) ), we had our own epic football (european) battle! </p> " + 
+										 "<p>Skateboarders against BMX riders.. well we've sucked... )</p>",
+						images  :[]
+					}
+					, {
+						date    :"26.05.13 8:59 PM",
+						topic   :"random",
+						caption :"Finished diploma part",
+						text    :"<p>Just finished new part of my graduation diploma. Thougth about posting something here.</p> " + 
+										 "<p>The most smart thought - post nothing www..</p>",
+						images  :[]
+					}
+					,{
+						date    :"28.05.13 11:21 PM",
+						topic   :"thoughts",
+						caption :"Reality",
+						text    :"<p>What if when physics cant handle an energy of object, object jumps into another reality where physics accepts that enery.</p> ",
+						images  :[]
+					}
+					, {
+
+						date    :"30.05.13 02:59 PM",
+						topic   :"training",
+						caption :"Skate trampoline",
+						text    :"<p>Yesterday visited my friends' trampolines. Brought my new skateboard deck with me to jump on it:)</p> " + 
+										 "<p>That's pretty cool :) landed shove it 360 and some grabs. found it little more difficult then i thought it would be..</p>",
+						images  : []
+					}
+					, {
+
+						date    :"17.10.13 22:44 PM",
+						topic   :"my games",
+						caption :"the 5th phase",
+						text    :"<p>this game from my past seems to be back) as a mr. Terminator does.. tryed to start working on it with impact js engine.. but things not suppose to go start really easy and fast).. think that i just need to work on my own js engine for my games.. 'cause this starts to be irritating..</p> " + 
+										 "<p>So the main point og this is that old game the 5th phase is going to be renewd.. Good luck us.</p>",
+						images  : []
+					}
+					, {
+
+						date    :"17.10.13 22:55 PM",
+						topic   :"reckoners",
+						caption :"PREALPHASHALPHA Website launch",
+						text    :"<p>We have created prealpha <a href='http://www.rcknrs.com'>rcknrs.com</a></p> " + 
+										 "<p>Feel free to visit it)</p>",
+						images  : []
+					}
+						, {
+						    date : "18.10.13 00:39 AM",
+						    topic: "60days game",
+						    caption:"Fucking experiment",
+						    text : "<p>THIS IS FUCKING EXPERIMENT. Why am i so emotional?</p>" + 
+						    "<p>Cause i Fucking tired of my temporality (dont know if that word exists in english).</p>" + 
+"<p>I want to take a long term task for myselft thats only me involved in 100%. Long term in this case i mean 60 days. and how u should understand from the topic - thi swould be the game in 60 days project. Fir this time. Its gonna be remake of my old Game called The 5th Phase. I gonna recreate it from the scratch and add some new features. If i Win this competition. I gonna .. em. duno. i gonna give myself a trip to USA or some serfing camp in ASIA in summer. if i loose - i gonna go bald.. (dont want this case at aaalll.)</p>",
+						    images:[]
+						}
+						, {
+						    date : "18.10.13 00:46 AM",
+						    topic: "60days game",
+						    caption:"THE RUUUUULES",
+						    text:"<p>The Rules of this competition are : </p>"+
+						    "<p>1) Every Tuesday and Thuersday contribute to the game.</p>" + "<p>Huge rules list huh? This means that i only have 2 x 4 x 2 = 16 contributions for this competition. So i think i gonna add one more day - optional day on the week. That means i have 16 + 8 = 24 contributions for this game. this should be something like the half of normal full time working month. So in the end its not certainly going to be a finished game. LOWEST PERCENTAGE OF COMPLETED - 80% . so the final rules list is:</p>" +
+"<p>1) Contribution every thursday and tuesday</p><p>2) Contribution 1 more optional day in every week</p>"+
+						    "<p>3)At the end this should be a 80% of features in game's feature list DONE!.</p><p>If one of this rule ever being broken while experiment period - i go BALD... hairless.</p>",
+						    images : []
+						}
+						, {
+						    date : "19.10.13 00:06 AM",
+						    topic: "60days game",
+						    caption:"Day number 1",
+						    text:"<p>I thougth that first day is going to be tomorrow, but i am not patient at all.</p><p>So today is the first day and i gonna to implement basic physics logic for the game. Its going to be matrix like world.</p>",
+						    images:[]
+						}
+						, {
+						    date : "19.10.13 01:12 AM",
+						    topic: "60days game",
+						    caption:"Day number 1. Results",
+						    text: "<p>created engine for logical representateion of game world( matrix ) and some debug stuff to.... wait for it... debug some stuff. here is the example of debug grid.. red ones - world's blocks</p>",
+						    images:["debug.png"]
+						}
+						, {
+						    date : "19.10.13 01:26 AM",
+						    topic: "60days game",
+						    caption:"Day number 1. Note",
+						    text: "<p> Just adding a note that i want to implement visualisation of only configurable local sector. in future. if i need thaaat",
+						    images:[]
+						}
+						, {
+						    date : "19.10.13 16:20 PM",
+						    topic: "60days game",
+						    caption: "Day number 1. More results",
+						    text: "<p> Finished visualisation of configurable local sector. you can set coordinates where to draw grid. we need this to debug collision boxes when world is real big - not to slow down the game (render only local grid sectors)</p>",
+						    images: ["debugsector.png"]
+						}
+						, {
+						    date : "23.10.13 01:38 AM",
+						    topic: "60days game",
+						    caption:"Day number 2. Results",
+						    text:"<p>Second day was not such productive. I've created some more physics stuff. Its Moving Objects collection and preparings before performing a physics step - gathering all matrixes together. now i want to create one step handling for only one object. and then i will be ready to do this for the whole world... and guess what. physics will be done. :)</p>",
+						    images:[]
+						}
+						, {
+						    date : "23.10.13 01:44 AM",
+						    topic:"random",
+						    caption:"GRAVITY the movie.",
+						    text:"<p>I've visited cinema today to watch this film.. and want to say HUUUUUGE thanks to creators of it... Such a masterpiece.. they've hold my attention for 1:30h with the help of only 1 actor, sound and space techs.</p><p>Gravity, please stay always in my mind - i want to remember all those lessons you gave me today...</p><p>THANKS</p>",
+						    images:["gravity.jpg"]
+						}
+						, {
+						    date : "24.10.13 22:26 AM",
+						    topic: "60days game",
+						    caption: "Day number 3. YOHOO SOME SKETCHOOOS",
+						    text: "<p>Yeah!. Lets say today is the day wen graphics has boooorn. We got first sketches of our game characters CHEEEEECK THIS AWESOME PIECES OOOOUT!!!</p>",
+						    images: ["sketch1.png" , "sketch2.png"]
+						}
+						, {
+						    date : "24.10.13 23:43 AM",
+						    topic: "random",
+						    caption: "MONKEN",
+						    text:"<p>Want to save this guy here</p>",
+						    images:["monken.jpg"]
+						}
+						, {
+						    date : "28.10.13 10:46 AM",
+						    topic: "random",
+						    caption: "12h hackathon",
+						    text: "<p>Finally i got here to the computer. It was hard messy Saturday the day before yesterday. we had to work for about 13 hours in a row to finish one big feature. AND IS DONE!</p>",
+						    images: []
+						}
+						, {
+						    date : "28.10.13 10:54 AM",
+						    topic: "60days game",
+						    caption: "MORE SKETCHOS",
+						    text: "<p>In Friday we got one new sketch of our character - Angry one.</p>",
+						    images: [ "sketch3.png" ]
+						}
+						, {
+						    date : "29.10.13 17:12 AM",
+						    topic: "60days game",
+						    caption: "Day 4. Middle",
+						    text:"<p> have codded for about 4 hours - working on physics.. this blocks on picture are moving objects that are suppose not to intersect with each other, and instead of that they must collide. and do that properly (what does not happen). Gonna give it one more try in the evening</p>",
+						    images:["debugphysics.png"]
+						}
+						, {
+						    date : "29.10.13 21:19 AM",
+						    topic: "60days game",
+						    caption: "Day 4. results",
+						    text: "<p>I did not finish physics today.. thats bad news. BUT! I have tried adding real objects to scene and monitor theirs collisions. Thats really cool) collision grid is setupable - it stretches on figure size. and you set up dencity of grid cells - this can make physics more complex.</p>",
+						    images: ["colorful.png"]
+						}
+						, {
+						    date : "29.10.13 23:26 AM",
+						    topic: "60days game",
+						    caption: "some thoughts",
+						    text : "<p>Some evening thoughts about this idea in global. Im now working on something mine intimate and really continuous. first time in my life. this gonna be cool epic huge and supermoneyearning or i will go to another idea :D... One interesting thing - as long as i work on this project my mind is starting to give me new ideas, but good new is that they are messy. so im not switching on them))... </p>",
+						    images:[]
+						}
+						, {
+						    date : "03.11.13 15:18 AM",
+						    topic : "60days game",
+						    caption: "Day 5 and Day 6.",
+						    text : "<p>On day  5 i have spent several hours working on gamedesign of The 5thPhase. Now its little bit wider than it was. And on day 6 im back to working on physics. From the scratch... You may wonder - wtf? why you dont use box2D or something? because i dont need mych physics functionality here. just two features - gravity and collision detections. now working on collision detection (gravity is not even started. thats all for now)</p>",
+						    images :[]
+						}
+						, {
+						    date : "23.02.14 14:44",
+						    topic : "pixel art",
+						    caption: "Tribute",
+						    text : "<p>Always wanted to try pixel art. and after Ukraine was shocked by goverment actions... i want to say thanks to ukrainian heroes. and so i am starting to draw pixel art. here is my first work - Berkut soldier, that understands what they've done.</p>",
+						    images :["soldier.png"]
+						}
+						, {
+						    date : "05.03.14 23:28",
+						    topic : "random",
+						    caption: "Reteach",
+						    text : "<p>Couple days before. Something amazing happened to me! But. I don't want to share it. (Yes. so why do i post this? - who knows? im weird.). So in memory of that i want to teach myself to make a mistake in russian word klassno. i will spell it with single s forever. :D awesome!</p>",
+						    images :[]
+						}
+						, {
+						    date : "05.03.14 23:30",
+						    topic: "60days game",
+						    caption: "ITS OVER",
+						    text : "<p>Fuck that shit... i am not going to go bold :D sorry, my personal judge.</p>",
+						    images:[]
+						}
+						, {
+						    date : "09.03.14 21:16",
+						    topic: "pixel art",
+						    caption: "MICHAEL JACKSON",
+						    text : "<p>Can you imagine Michael's everyday routine? :D. Here is my attempt.</p>",
+						    images:["michael.jpg"]
+						}
+						, {
+						    date : "18.03.14 23:42",
+						    topic: "thoughts",
+						    caption: "You are not serious",
+						    text : "<p>Yes.</p>",
+						    images:["fun.jpg"]
+						}
+        
+						, {
+						    date : "20.03.14 22:57",
+						    topic: "random",
+						    caption: "Inspire me Phil",
+						    text : "<p>Soon i gona have the room like this to create my FEZ.</p>",
+						    images:["polytron.jpg"]
+						}
+        
+                        , {
+						    date : "20.03.14 00:14",
+						    topic: "random",
+						    caption: "TIG source random",
+						    text : "<p>Just liked this man</p>",
+						    images:["tigsource.gif"]
+						}
+						
+                        , {
+						    date : "21.03.14 23:40",
+						    topic: "work",
+						    caption: "My workplace",
+						    text : "<p>Was inspired by Phil to take a photo..</p>",
+						    images:["workplace.jpg"]
+						}
+        
+                        , {
+						    date : "21.03.14 23:41",
+						    topic: "work",
+						    caption: "LEGO Batman!",
+						    text : "<p>WHYUWANAKILME? WRWRWRWRWRWR</p>",
+						    images:["batman.jpg"]
+						}
+                        , {
+						    date : "21.03.14 23:42",
+						    topic: "work",
+						    caption: "Todays work result",
+						    text : "<p>Kinda funny</p>",
+						    videos:["workresult.mp4"]
+						}
+        
+                        , {
+						    date : "22.03.14 00:50",
+						    topic: "random",
+						    caption: "Meatboy Ninja",
+						    text : "<p><center><img width=50px src='images/meatboyninja.png'></img></center></p>"
+						}
+                        , {
+						    date : "22.03.14 15:25",
+						    topic: "work",
+						    caption: "Inspiration",
+						    text : "",
+						    images:["indiegame.png"]
+						}
+        
+                        , {
+						    date : "22.03.14 21:45",
+						    topic: "pixel art",
+						    caption: "Gumble - my friends doggy.",
+						    text : "<p><center><img width=50px src='images/gumble.gif'></img><img width=50px src='images/gumble-run.gif'></img></center></p>"//,
+						    //images:["gumble.gif" , "gumble-run.gif"]
+						}
+        
+                        , {
+						    date : "22.03.14 23:12",
+						    topic: "thoughts",
+						    text: "As long as you are able.. you should do weird tricky stuff, that nobody understand or even somebody tries to prevent you doing that. But the thing is that weird and tricky stuff is a life. Its a different life. Its your choice. IF you stop doing what you love - you become average, your life becomes average. Show off more often. Try Try Try.",
+						    caption : "Average Life"
+						}
+        
+                        , {
+						    date : "23.03.14 22:01",
+						    topic: "random",
+						    caption : "Todays Routine",
+						    text: "<p><br><10:00> Biked 8 km.<br><12:00> Watch 'Suits'.<br><14:00> DANCE! DANCE DANCE! <br><16:00> Mc Donalds. <br><17:00> RIO 2. <br> <20:00> Secret stuff.<br> <22:00> Awesominity.</p>"
+						}
+
+						, {
+						    date : "24.03.14 13:44",
+						    topic: "random",
+						    caption : "Break Dance",
+						    text: "<p>There are many situations in my life when i regret i cant do breakdancing...</p>"
+						}
+						, {
+						    date : "24.03.14 19:28",
+						    topic: "my games",
+						    caption : "Blocks",
+						    text: "<p>that actly looks pretty good</p>",
+						    images: ["blocks.png"]
+						}
+                        , {
+						    date : "25.03.14 10:19",
+						    topic: "pixel art",
+						    caption : "Hyper Light Drifter",
+						    text: "<p>awesome</p>",
+						    images: ["gld.gif", "gld2.gif"]
+						}
+						, {
+						    date : "25.03.14 11:31",
+						    topic: "pixel art",
+						    caption : "RIOT simulator",
+						    text: "<p>Checkout these awesome pieces of <a href='http://www.riotgame.org/'> RIOT simulator </a> <br> <br><img src='images/riot1.gif'><img width=100px src='images/riot2.gif'><img width=100px src='images/riot3.gif'><img width=100px src='images/riot4.gif'><img width=100px src='images/riot5.gif'><img width=100px src='images/riot6.gif'><img width=100px src='images/riot7.gif'><img width=100px src='images/riot8.gif'></p>",
+						    images: ["banksy.png"]
+						}
+						, {
+						    date : "25.03.14 18:17",
+						    topic: "my games",
+						    caption : "5th phase",
+						    text: "<p>Got some progress with block figures generation. Here you can see the massive of figures. It contains elements of different nature that can interact with each other. Lava + Ice = ice is melting (thats for example). The form of the figure is uncontrolably random (for now). Later ill give more attention to the generation, so we can generate images, for example. And the next thing i gonna do - write all player interfaces..</p>",
+						    images: ["blokcscombined.png"]
+						}
+                        , {
+						    date : "25.03.14 23:32",
+						    topic: "random",
+						    caption : "Polytron Logo",
+						    text: "",
+						    images: ["polytweet.jpg"]
+						}
+        
+                        , {
+						    date : "30.03.14 00:28",
+						    topic: "thoughts",
+						    caption : "Computer world",
+						    text: "this new thing. that appears right now. its a real magic. new world. its so deep and comfortable. you can dive in and walk around it for ages. so different."
+						}
+                        , {
+						    date : "31.03.14 01:10",
+						    topic: "my games",
+						    caption : "Today i've worked on PUZZLE",
+						    text: '<iframe width="300" height="200" src="//www.youtube.com/embed/uoOIv_P8X3M" frameborder="0" allowfullscreen></iframe>'
+						}
+                        , {
+						    date : "01.04.14 23:40",
+						    topic: "my games",
+						    caption : "MUSHROOM JUMP",
+						    text: "<p>YOYO Wozzup. Im now working on one more game. Its YAKKUDZONA's game. He invited me to help transform this game on Unity. And i've agreed... and that's not a joke.. even today ;) </p>",
+                            images : ["mushroom.png"]
+						}
+
+                        , {
+						    date : "11.04.14 21:52",
+						    topic: "my games",
+						    caption : "5th phase",
+						    text: "<p>This is friendy. its tech name P.A.L. Dont know how it spells yet. :D but its awesome.</p>",
+                            images : ["friendy.png"]
+						}
+				]
+	, {
+	date : "10.05.14 23:59",
+	topic: "thoughts",
+	caption: "Choses",
+	text: "<p> Before do something - think about that you will live with that for entire life</p>"
+    }
+	,{
+	date : "10.05.14 00:00",
+	topic : "my games",
+	caption: "5th phase conrinues"m
+	text:"<p>we were rly close to our game death (as project). But after 2 weeks of hard work (2 night times) we've created something fun and interesting to play. So we can continue. Now we are concentrating on CTF game mode ONLY to do it as much fun as it is inf Quake or Unreal Tournament</p>"
+    }
+
+}
